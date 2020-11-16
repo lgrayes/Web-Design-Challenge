@@ -27,3 +27,17 @@ table-responsive-lg{
     align-items: center;
     align-content: center;
 }
+
+.box {
+    min-height: 50px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 800;
+    color: rgb(12, 11, 11);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(8, 153, 146);
+  }
+  
+  .skyblue {
+    background: rgb(248, 249, 250);
+  }
