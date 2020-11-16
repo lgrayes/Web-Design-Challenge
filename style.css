@@ -7,3 +7,23 @@ nav-link{
     font-family: 'Times New Roman', Times, serif;
     text-align: right;
 }
+
+/* body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+} */
+
+table-responsive-lg{
+    align-content: center;
+    align-items: center;
+}
+
+/* dataframe{
+    align-items: center;
+    align-content: center;
+} */
+
+table-responsive-lg{
+    align-items: center;
+    align-content: center;
+}
