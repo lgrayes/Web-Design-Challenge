@@ -36,8 +36,16 @@ table-responsive-lg{
     color: rgb(12, 11, 11);
     font-family: 'Times New Roman', Times, serif;
     color: rgb(8, 153, 146);
+    font-size: x-large;
   }
   
   .skyblue {
     background: rgb(248, 249, 250);
+  }
+
+  p{
+      font-family: Arial, Helvetica, sans-serif;
+      color: black;
+      font-size: small;
+      font-weight: 500;
   }
