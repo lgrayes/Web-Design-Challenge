@@ -14,7 +14,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
           <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -23,11 +23,11 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
             <a class="dropdown-item" href="humidity.html">Humidity</a>
-            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href=#>Cloudiness</a>
             <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
           </div>
         </li>        
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="comparison.html">Comparison </a>
         </li>
         <li class="nav-item">
@@ -36,43 +36,53 @@
       </ul>
     </div>
   </nav>
-
-  <div class="jumbotron">
+    
+   <div class="jumbotron">
     <div class="container">
-    <div class="col-md-12"><div class="box skyblue"><thead>Comparison </thead>
-
-      <hr class="my-4">
-      <p>Click on any plot to get an in-depth analysis</p>
-    <div class="container">
+      <!--Normally these medium columns go full wide on small screen sizes-->
       <div class="row">
-          <div class="col-md-6">
-            <h6 align = "center">vs. Max Temperature</h6>
-              <img src="WebVisualizations/assets/Fig1.png" alt="..." width="70%">
-          </div>
+        <div class="col-md-8"><div class="box skyblue"><thead>Cloudiness</thead>
 
-          <div class="col-md-6">
-            <h6 align = "center">vs. Humidity</h6>
-            <img src="WebVisualizations/assets/Fig2.png" alt="..." width="70%">
-        </div></div>
+          <hr class="my-4">
+          <img src="WebVisualizations/assets/Fig3.png" alt="..." width="100%" align="left"><br>
+          <p>Analysis on cloudiness here ... </p>
+          
+          <p></p>
+          <p>... </p>
+          
+        </div>
 
-        <div class="row">
+        
+        </div>
+        <div class="col-md-4"><div class="box skyblue"><thead>Visualizations</thead>
+          <div class="row">
+            <div class="col-md-6">
+                <img src="WebVisualizations/assets/Fig1.png" alt="..." width="80%">
+            </div>
+  
+            <div class="col-md-6">
+              <img src="WebVisualizations/assets/Fig2.png" alt="..." width="80%">
+          </div></div>
+  
+          <div class="row">
+          <div class="col-md-6">
+            <img src="WebVisualizations/assets/Fig3.png" alt="..." width="80%">
+        </div>
+  
         <div class="col-md-6">
-          <h6 align = "center">vs. Cloudiness</h6>
-          <img src="WebVisualizations/assets/Fig3.png" alt="..." width="70%">
+            <img src="WebVisualizations/assets/Fig4.png" alt="..." width="80%">
+        </div>
+  
       </div>
-
-      <div class="col-md-6">
-        <h6 align = "center">vs. Wind Speed</h6>        
-        <img src="WebVisualizations/assets/Fig4.png" alt="..." width="70%">
+        </div>
+          
+        </div>
       </div>
-
-    </div>
   </div>
-</div>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 
 </html>
