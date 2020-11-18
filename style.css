@@ -8,6 +8,14 @@ nav-link{
     text-align: right;
 }
 
+.navbar-collapse{
+    position: absolute;
+    right: 15%;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font: bolder;
+  }
+
 /* body{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
